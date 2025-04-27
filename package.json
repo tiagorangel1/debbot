@@ -1,0 +1,16 @@
+{
+  "name": "swirl",
+  "module": "src/index.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "oauth-1.0a": "^2.2.6",
+    "rss-parser": "^3.13.0"
+  }
+}
