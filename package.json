@@ -9,6 +9,11 @@
   "peerDependencies": {
     "typescript": "^5"
   },
+  "scripts": {
+    "start": "bun run src/index.js",
+    "dev": "bun run --watch src/index.js",
+    "forever": "pm2 start src/index.js --name swirl_bot"
+  },
   "dependencies": {
     "oauth-1.0a": "^2.2.6",
     "rss-parser": "^3.13.0"
